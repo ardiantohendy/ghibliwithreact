@@ -1,0 +1,41 @@
+.aboutPage {
+  width: 100%;
+  background: #282c34;
+}
+
+.aboutPage .mainAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.aboutPage .mainAbout img {
+  width: 28%;
+  border-radius: 1em;
+  align-self: center;
+  margin-left: 2em;
+}
+
+.mainAbout .txtAbout {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 50%;
+  padding-right: 6em;
+  padding-left: 5em;
+  color: whitesmoke;
+}
+
+.mainAbout .txtAbout h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0.3em;
+}
+
+.mainAbout .txtAbout p {
+  line-height: 1.6em;
+  text-align: justify;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}

@@ -1,5 +1,4 @@
 import "../css/LandingPage.css";
-import leftImage from "../assets/images/wallpaperflare.com_wallpaper (1).jpg";
 
 function LandingPage(props) {
   return (

@@ -5,7 +5,7 @@ function Navbar() {
     <div className="container">
       <div className="navbar">
         <div className="logo">
-          <p>Studio Ghibli</p>
+          <p>Ghibli</p>
         </div>
         <div className="listOptions">
           <ul>
