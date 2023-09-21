@@ -1,13 +1,12 @@
 .filmPage {
   width: 100%;
-  height: 100vh;
   background: #282c34;
 }
 
 .filmPage .subTxt {
   height: 40vh;
   width: 100%;
-  background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/images/filmography.jpg);
+  background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/images/filmography.jpg);
   background-position: 0 120em;
   background-size: auto;
   display: flex;
@@ -20,4 +19,144 @@
   color: whitesmoke;
   font-weight: 400;
   margin-bottom: 0.3em;
+}
+
+.mainContent {
+  padding: 3em 5em;
+  color: whitesmoke;
+  display: flex;
+}
+
+.mainContent .leftCard {
+  margin: 0.1em;
+  display: flex;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.555);
+  border-radius: 1em;
+}
+
+.mainContent .leftCard .imgCard {
+  width: 50%;
+  display: flex;
+}
+
+.mainContent .leftCard .imgCard img {
+  width: 100%;
+  border-radius: 1em 0 0 1em;
+}
+
+.mainContent .leftCard .descCard {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1.5em 1em 1em 1em;
+  text-align: center;
+}
+
+.mainContent .leftCard .descCard h3 {
+  font-size: 2rem;
+  margin-bottom: 0.2em;
+  font-weight: 400;
+}
+
+.mainContent .leftCard .descCard h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+}
+
+.mainContent .leftCard .descCard h5 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+}
+
+.mainContent .leftCard .descCard p {
+  line-height: 1.5em;
+  text-align: justify;
+  margin-bottom: 1em;
+}
+
+.mainContent .leftCard .descCard a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #282c34;
+  padding: 0.5em;
+  text-align: center;
+  border-radius: 0.3em;
+  transition: 0.3s;
+}
+
+.mainContent .leftCard .descCard a:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+
+/* Right Side */
+
+.mainContent .rightCard {
+  margin: 0.1em;
+  display: flex;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.555);
+  border-radius: 1em;
+}
+
+.mainContent .rightCard .imgCard {
+  width: 50%;
+  display: flex;
+}
+
+.mainContent .rightCard .imgCard img {
+  width: 100%;
+  border-radius: 0 1em 1em 0;
+}
+
+.mainContent .rightCard .descCard {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1.5em 1em 1em 1em;
+  text-align: center;
+}
+
+.mainContent .rightCard .descCard h3 {
+  font-size: 2rem;
+  margin-bottom: 0.2em;
+  font-weight: 400;
+}
+
+.mainContent .rightCard .descCard h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+}
+
+.mainContent .rightCard .descCard h5 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+}
+
+.mainContent .rightCard .descCard p {
+  line-height: 1.5em;
+  text-align: justify;
+  margin-bottom: 1em;
+}
+
+.mainContent .rightCard .descCard a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #282c34;
+  padding: 0.5em;
+  text-align: center;
+  border-radius: 0.3em;
+  transition: 0.3s;
+}
+
+.mainContent .rightCard .descCard a:hover {
+  color: black;
+  background-color: whitesmoke;
 }
