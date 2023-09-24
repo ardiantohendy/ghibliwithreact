@@ -1,9 +1,11 @@
 import leftImage from "../assets/images/wallpaperflare.com_wallpaper (1).jpg";
 import "../css/AboutPage.css";
+import Navbar from "./Navbar";
 
 function AboutPage() {
   return (
     <div className="aboutPage">
+      <Navbar />
       <div className="mainAbout">
         <img src={leftImage} alt="" />
         <div className="txtAbout">

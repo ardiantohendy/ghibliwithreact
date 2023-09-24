@@ -10,16 +10,16 @@ function Navbar() {
         <div className="listOptions">
           <ul>
             <li>
-              <a href="#">home</a>
+              <a href="/">home</a>
             </li>
             <li>
-              <a href="#">filmograpgy</a>
+              <a href="/filmography">filmograpgy</a>
             </li>
             <li>
               <a href="#">in theaters</a>
             </li>
             <li>
-              <a href="#">about</a>
+              <a href="/about">about</a>
             </li>
           </ul>
         </div>

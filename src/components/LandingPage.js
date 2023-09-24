@@ -1,11 +1,13 @@
 import "../css/LandingPage.css";
+import Navbar from "../components/Navbar";
 
-function LandingPage(props) {
+function LandingPage() {
   return (
     <div className="landingPage">
+      <Navbar />
       <div className="main">
         <h1>
-          Studio <span>Ghibli</span>{" "}
+          Studio <span>Ghibli</span>
         </h1>
         <div className="forP">
           <p>
@@ -13,8 +15,8 @@ function LandingPage(props) {
             characters and breathtaking landscapes."
           </p>
           <div className="forA">
-            <a href="#">filmography</a>
-            <a href="#">about</a>
+            <a href="/filmography">filmography</a>
+            <a href="/about">about</a>
           </div>
         </div>
       </div>
