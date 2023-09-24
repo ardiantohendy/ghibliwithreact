@@ -1,3 +1,6 @@
+body {
+  background: #282c34;
+}
 .aboutPage {
   width: 100%;
   background: #282c34;
@@ -8,11 +11,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding-top: 5em;
 }
 
 .aboutPage .mainAbout img {
-  width: 25%;
+  width: 27%;
   border-radius: 1em;
   align-self: center;
   margin-left: 2em;

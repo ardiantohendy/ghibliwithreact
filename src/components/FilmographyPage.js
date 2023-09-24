@@ -29,7 +29,6 @@ function FilmographyPage(props) {
                 </div>
                 <p className="description">{films.description}</p>
               </div>
-
               <div className="descBtn">
                 <a href="#">Buy</a>
                 <a href="#">More Info</a>

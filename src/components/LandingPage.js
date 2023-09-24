@@ -1,4 +1,5 @@
 import "../css/LandingPage.css";
+import image from "../assets/images/rico.jpg";
 import Navbar from "../components/Navbar";
 
 function LandingPage() {
@@ -6,14 +7,9 @@ function LandingPage() {
     <div className="landingPage">
       <Navbar />
       <div className="main">
-        <h1>
-          Studio <span>Ghibli</span>
-        </h1>
-        <div className="forP">
-          <p>
-            "Studio Ghibli is a legendary beacon of artistic brilliance in the world of animation, crafting enchanting worlds where imagination knows no bounds. Its films are a tapestry of heartwarming tales, intricately woven with vibrant
-            characters and breathtaking landscapes."
-          </p>
+        <div className="titleAja">
+          <img src={image} alt="" />
+          <h1>Studio Ghibli</h1>
           <div className="forA">
             <a href="/filmography">filmography</a>
             <a href="/about">about</a>
