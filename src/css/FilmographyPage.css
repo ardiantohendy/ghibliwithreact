@@ -3,8 +3,6 @@
   background: #282c34;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .filmPage .subTxt {
@@ -31,11 +29,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
 }
 
 .mainContent .leftCard {
-  margin: 0.1em;
+  margin: 0.3em;
   display: flex;
   width: 45%;
   height: fit-content;
@@ -53,58 +50,44 @@
   border-radius: 1em 0 0 1em;
 }
 
-.mainContent .leftCard .descCard {
+.mainContent .descCard {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 1.5em 1em 1em 1em;
   text-align: center;
 }
 
-.mainContent .leftCard .descCard h3 {
-  font-size: 2rem;
-  margin-bottom: 0.2em;
+.mainContent .descCard h3 {
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
-.mainContent .leftCard .descCard h4 {
+.mainContent .descCard h4 {
   font-size: 1rem;
-  margin-bottom: 0.5em;
   font-weight: 400;
+  margin-bottom: 0.8em;
 }
 
-.mainContent .leftCard .descCard h5 {
+.mainContent .descCard h5 {
   font-weight: 400;
   font-size: 1rem;
-  margin-bottom: 0.5em;
 }
 
-.mainContent .leftCard .descCard p {
+.mainContent .descCard p.description {
   line-height: 1.5em;
   text-align: justify;
-  margin-bottom: 1em;
-}
-
-.mainContent .leftCard .descCard a {
-  text-decoration: none;
-  color: whitesmoke;
-  background-color: #282c34;
-  padding: 0.5em;
-  text-align: center;
-  border-radius: 0.3em;
-  transition: 0.3s;
-}
-
-.mainContent .leftCard .descCard a:hover {
-  color: black;
-  background-color: whitesmoke;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* Right Side */
 
 .mainContent .rightCard {
-  margin: 0.1em;
+  margin: 0.3em;
   display: flex;
   width: 45%;
   height: fit-content;
@@ -122,40 +105,24 @@
   border-radius: 0 1em 1em 0;
 }
 
-.mainContent .rightCard .descCard {
-  width: 50%;
+.mainContent .descCard .descCardTtl {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  padding: 1.5em 1em 1em 1em;
-  text-align: center;
-}
-
-.mainContent .rightCard .descCard h3 {
-  font-size: 2rem;
-  margin-bottom: 0.2em;
-  font-weight: 400;
-}
-
-.mainContent .rightCard .descCard h4 {
-  font-size: 1rem;
-  margin-bottom: 0.5em;
-  font-weight: 400;
-}
-
-.mainContent .rightCard .descCard h5 {
-  font-weight: 400;
-  font-size: 1rem;
-  margin-bottom: 0.5em;
-}
-
-.mainContent .rightCard .descCard p {
-  line-height: 1.5em;
-  text-align: justify;
   margin-bottom: 1em;
 }
 
-.mainContent .rightCard .descCard a {
+.mainContent .descCard .descBtn {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+}
+
+.mainContent .descCard .descBtn a {
+  margin: 0.2em 0;
+}
+
+.mainContent .descCard a {
   text-decoration: none;
   color: whitesmoke;
   background-color: #282c34;
@@ -165,7 +132,7 @@
   transition: 0.3s;
 }
 
-.mainContent .rightCard .descCard a:hover {
+.mainContent .descCard a:hover {
   color: black;
   background-color: whitesmoke;
 }

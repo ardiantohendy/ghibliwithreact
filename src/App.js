@@ -24,12 +24,19 @@ function App() {
               <img src={films.image} alt="" />
             </div>
             <div className="descCard">
-              <h3>{films.title}</h3>
-              <h4>{films.original_title}</h4>
-              <h5>Score: {films.rt_score}</h5>
-              <p>{films.description}</p>
-              <a href="#">Buy</a>
-              <a href="#">More Info</a>
+              <div className="encapsule">
+                <div className="descCardTtl">
+                  <h3>{films.title}</h3>
+                  <h4>( {films.original_title} )</h4>
+                  <h5>Score: {films.rt_score}</h5>
+                </div>
+                <p className="description">{films.description}</p>
+              </div>
+
+              <div className="descBtn">
+                <a href="#">Buy</a>
+                <a href="#">More Info</a>
+              </div>
             </div>
           </div>
         );
@@ -37,12 +44,18 @@ function App() {
         return (
           <div className="rightCard">
             <div className="descCard">
-              <h3>{films.title}</h3>
-              <h4>{films.original_title}</h4>
-              <h5>Score:{films.rt_score}</h5>
-              <p>{films.description}</p>
-              <a href="#">Buy</a>
-              <a href="#">More Info</a>
+              <div className="encapsule">
+                <div className="descCardTtl">
+                  <h3>{films.title}</h3>
+                  <h4>( {films.original_title} )</h4>
+                  <h5>Score:{films.rt_score}</h5>
+                </div>
+                <p className="description">{films.description}</p>
+              </div>
+              <div className="descBtn">
+                <a href="#">Buy</a>
+                <a href="#">More Info</a>
+              </div>
             </div>
             <div className="imgCard">
               <img src={films.image} alt="" />
