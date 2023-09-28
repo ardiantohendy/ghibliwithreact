@@ -1,6 +1,7 @@
 import "../css/LandingPage.css";
 import image from "../assets/images/rico.jpg";
 import Navbar from "../components/Navbar";
+import Footer from "./Footer";
 
 function LandingPage() {
   return (
@@ -16,6 +17,7 @@ function LandingPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

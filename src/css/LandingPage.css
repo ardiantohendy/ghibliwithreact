@@ -8,6 +8,7 @@
 
 .landingPage .main {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +17,7 @@
 
 .landingPage .main .titleAja {
   width: 40%;
-  padding-top: 6em;
+  padding-bottom: 5em;
 }
 
 .landingPage .main .titleAja img {
