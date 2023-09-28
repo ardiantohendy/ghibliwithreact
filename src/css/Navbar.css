@@ -6,16 +6,19 @@
 .navbar {
   margin: auto;
   display: flex;
-  /* position: absolute; */
+  position: absolute;
   width: 90.6%;
   justify-content: space-between;
   align-items: center;
   padding: 1.5em 0em;
+  left: 0;
+  right: 0;
 }
 
 .navbar .logo {
   color: white;
   font-size: 1.8rem;
+  margin-left: 0.5em;
 }
 
 .navbar .listOptions ul li {

@@ -1,5 +1,6 @@
 import "../css/FilmographyPage.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import { getFilms } from "../connections/GhibliApi";
 import { useEffect, useState } from "react";
 
@@ -69,6 +70,7 @@ function FilmographyPage(props) {
         <h3>filmography.</h3>
       </div>
       <div className="mainContent">{listOfFilms(getFilmography)}</div>
+      <Footer />
     </div>
   );
 }

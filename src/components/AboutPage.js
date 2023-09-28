@@ -1,6 +1,7 @@
 import leftImage from "../assets/images/wallpaperflare.com_wallpaper (1).jpg";
 import "../css/AboutPage.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function AboutPage() {
   return (
@@ -21,6 +22,7 @@ function AboutPage() {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
