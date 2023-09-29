@@ -1,4 +1,9 @@
 import "../css/Footer.css";
+import Instagram from "../assets/icons/icons8-instagram-500.png";
+import Facebook from "../assets/icons/icons8-facebook-500.png";
+import Twitter from "../assets/icons/icons8-twitter-500.png";
+import Gmail from "../assets/icons/icons8-gmail-500.png";
+import Youtube from "../assets/icons/icons8-youtube-500.png";
 
 function Footer() {
   return (
@@ -62,7 +67,37 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="botFoot"></div>
+      <span></span>
+      <div className="botFoot">
+        <ul>
+          <li>
+            <a href="#">
+              <img src={Instagram} alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src={Facebook} alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src={Twitter} alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src={Gmail} alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src={Youtube} alt="" />
+            </a>
+          </li>
+        </ul>
+        <p>&copy;Copyright. All right reserved.</p>
+      </div>
     </div>
   );
 }

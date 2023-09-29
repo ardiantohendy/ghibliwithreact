@@ -4,7 +4,7 @@
 }
 
 .mainBody .topFoot {
-  padding: 5em 1em;
+  padding: 5em 1em 3em 7em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -73,4 +73,45 @@
 .mainBody .topFoot .options h4 {
   font-size: 1.8em;
   color: whitesmoke;
+}
+
+.mainBody span {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 0.2em; /*or whatever width you want the effect of <hr>*/
+  background: #7f7f7f;
+}
+
+.mainBody .botFoot {
+  width: 12%;
+  margin: auto;
+  padding-top: 7em;
+}
+
+.mainBody .botFoot ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainBody .botFoot li {
+  list-style: none;
+}
+
+.mainBody .botFoot img {
+  width: 1.8em;
+  filter: invert(44%) sepia(98%) saturate(20%) hue-rotate(83deg) brightness(95%) contrast(83%);
+  transition: 0.2s;
+}
+
+.mainBody .botFoot img:hover {
+  filter: invert(99%) sepia(9%) saturate(62%) hue-rotate(297deg) brightness(113%) contrast(92%);
+}
+
+.mainBody .botFoot p {
+  padding-top: 1em;
+  padding-bottom: 7em;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 0.8em;
 }
