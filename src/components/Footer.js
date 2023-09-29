@@ -4,11 +4,18 @@ import Facebook from "../assets/icons/icons8-facebook-500.png";
 import Twitter from "../assets/icons/icons8-twitter-500.png";
 import Gmail from "../assets/icons/icons8-gmail-500.png";
 import Youtube from "../assets/icons/icons8-youtube-500.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Footer() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="mainBody">
-      <div className="topFoot">
+      <div className="topFoot" data-aos="fade-down">
         <div className="logo">
           <h3>Studio Ghibli</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
@@ -19,14 +26,12 @@ function Footer() {
             <p>all product from Ghibli</p>
             <ul>
               <li>
-                {" "}
                 <a href="#">poster</a>
               </li>
               <li>
                 <a href="#">t-shirt</a>
               </li>
               <li>
-                {" "}
                 <a href="#">hoodie & jacket</a>
               </li>
               <li>
@@ -55,20 +60,20 @@ function Footer() {
                 <a href="/">home</a>
               </li>
               <li>
-                <a href="/">filmography</a>
+                <a href="/filmography">filmography</a>
               </li>
               <li>
-                <a href="/">in theaters</a>
+                <a href="/#">in theaters</a>
               </li>
               <li>
-                <a href="/">about</a>
+                <a href="/about">about</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <span></span>
-      <div className="botFoot">
+      <span data-aos="zoom-in"></span>
+      <div className="botFoot" data-aos="fade-up">
         <ul>
           <li>
             <a href="#">

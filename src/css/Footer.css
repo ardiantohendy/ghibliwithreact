@@ -1,6 +1,7 @@
 .mainBody {
   width: 100%;
   background: #16191f;
+  overflow: hidden;
 }
 
 .mainBody .topFoot {
@@ -110,7 +111,7 @@
 
 .mainBody .botFoot p {
   padding-top: 1em;
-  padding-bottom: 7em;
+  padding-bottom: 10em;
   text-align: center;
   color: whitesmoke;
   font-size: 0.8em;

@@ -1,4 +1,6 @@
 import "../css/Navbar.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Navbar() {
   return (
@@ -17,6 +19,9 @@ function Navbar() {
             </li>
             <li>
               <a href="#">in theaters</a>
+            </li>
+            <li>
+              <a href="#">shop</a>
             </li>
             <li>
               <a href="/about">about</a>

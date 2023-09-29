@@ -3,6 +3,7 @@
   background: #282c34;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .filmPage .subTxt {

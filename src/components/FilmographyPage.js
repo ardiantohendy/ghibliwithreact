@@ -1,6 +1,8 @@
 import "../css/FilmographyPage.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { getFilms } from "../connections/GhibliApi";
 import { useEffect, useState } from "react";
 
@@ -11,13 +13,14 @@ function FilmographyPage(props) {
     getFilms().then((result) => {
       setFilmography(result);
     });
+    Aos.init({ duration: 1000 });
   }, []);
 
   const listOfFilms = (property) => {
     return property.map((films, i) => {
       if (i % 2 === 0) {
         return (
-          <div className="leftCard">
+          <div className="leftCard" data-aos="fade-right">
             <div className="imgCard">
               <img src={films.image} alt="" />
             </div>
@@ -39,7 +42,7 @@ function FilmographyPage(props) {
         );
       } else if (i % 2 !== 0) {
         return (
-          <div className="rightCard">
+          <div className="rightCard" data-aos="fade-left">
             <div className="descCard">
               <div className="encapsule">
                 <div className="descCardTtl">
@@ -66,7 +69,7 @@ function FilmographyPage(props) {
   return (
     <div className="filmPage">
       <Navbar />
-      <div className="subTxt">
+      <div className="subTxt" data-aos="flip-right">
         <h3>filmography.</h3>
       </div>
       <div className="mainContent">{listOfFilms(getFilmography)}</div>

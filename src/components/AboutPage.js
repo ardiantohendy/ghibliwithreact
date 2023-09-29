@@ -2,14 +2,21 @@ import leftImage from "../assets/images/wallpaperflare.com_wallpaper (1).jpg";
 import "../css/AboutPage.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function AboutPage() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="aboutPage">
       <Navbar />
       <div className="mainAbout">
-        <img src={leftImage} alt="" />
-        <div className="txtAbout">
+        <img src={leftImage} alt="" data-aos="flip-right" />
+        <div className="txtAbout" data-aos="flip-left">
           <h3>about studio ghibli</h3>
           <p>
             Studio Ghibli was founded in 1985 by animated film directors Isao Takahata and Hayao Miyazaki, and has produced twenty-two feature-length films. Most Studio Ghibli films ranked number one at the box office in Japan in the year
