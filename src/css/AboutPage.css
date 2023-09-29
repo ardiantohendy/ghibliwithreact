@@ -11,6 +11,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding-top: 5em;
+  margin-bottom: 5em;
 }
 
 .aboutPage .mainAbout img {
