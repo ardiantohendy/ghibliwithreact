@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ghibliwithreact/static/css/main.625a53a3.css",
+    "main.js": "/ghibliwithreact/static/js/main.cb51af99.js",
+    "static/media/wallpaperflare.com_wallpaper (1).jpg": "/ghibliwithreact/static/media/wallpaperflare.com_wallpaper (1).c031aed7ed30696030b7.jpg",
+    "static/media/wallpaperflare.com_wallpaper.jpg": "/ghibliwithreact/static/media/wallpaperflare.com_wallpaper.1f648fb1c9d7eb5cafd1.jpg",
+    "static/media/rico.jpg": "/ghibliwithreact/static/media/rico.72ae454fe9e0a3480084.jpg",
+    "static/media/filmography.jpg": "/ghibliwithreact/static/media/filmography.4ace676c34b146db2419.jpg",
+    "static/media/icons8-twitter-500.png": "/ghibliwithreact/static/media/icons8-twitter-500.fb494a6a1ef18db6d7c9.png",
+    "static/media/icons8-facebook-500.png": "/ghibliwithreact/static/media/icons8-facebook-500.86703d9e8f85bac49919.png",
+    "static/media/icons8-instagram-500.png": "/ghibliwithreact/static/media/icons8-instagram-500.18f5c8e78c0fa31834a2.png",
+    "static/media/icons8-gmail-500.png": "/ghibliwithreact/static/media/icons8-gmail-500.b08d7f0fe82b6a64654b.png",
+    "static/media/icons8-youtube-500.png": "/ghibliwithreact/static/media/icons8-youtube-500.c823c2e350a50c07b449.png",
+    "index.html": "/ghibliwithreact/index.html",
+    "main.625a53a3.css.map": "/ghibliwithreact/static/css/main.625a53a3.css.map",
+    "main.cb51af99.js.map": "/ghibliwithreact/static/js/main.cb51af99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.625a53a3.css",
+    "static/js/main.cb51af99.js"
+  ]
+}
