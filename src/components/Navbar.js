@@ -13,7 +13,7 @@ function Navbar() {
               <a href="/ghibliwithreact/">home</a>
             </li>
             <li>
-              <a href="/ghibliwithreact/filmography">filmograpgy</a>
+              <a href="/ghibliwithreact/filmography/">filmograpgy</a>
             </li>
             <li>
               <a href="#">in theaters</a>
@@ -22,7 +22,7 @@ function Navbar() {
               <a href="#">shop</a>
             </li>
             <li>
-              <a href="/ghibliwithreact/about">about</a>
+              <a href="/ghibliwithreact/about/">about</a>
             </li>
           </ul>
         </div>

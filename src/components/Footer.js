@@ -60,13 +60,13 @@ function Footer() {
                 <a href="/ghibliwithreact/">home</a>
               </li>
               <li>
-                <a href="/ghibliwithreact/filmography">filmography</a>
+                <a href="/ghibliwithreact/filmography/">filmography</a>
               </li>
               <li>
                 <a href="/#">in theaters</a>
               </li>
               <li>
-                <a href="/ghibliwithreact/about">about</a>
+                <a href="/ghibliwithreact/about/">about</a>
               </li>
             </ul>
           </div>
