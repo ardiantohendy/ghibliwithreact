@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ghibliwithreact/static/css/main.625a53a3.css",
-    "main.js": "/ghibliwithreact/static/js/main.cb51af99.js",
+    "main.css": "/ghibliwithreact/static/css/main.ad373de6.css",
+    "main.js": "/ghibliwithreact/static/js/main.a6104010.js",
     "static/media/wallpaperflare.com_wallpaper (1).jpg": "/ghibliwithreact/static/media/wallpaperflare.com_wallpaper (1).c031aed7ed30696030b7.jpg",
     "static/media/wallpaperflare.com_wallpaper.jpg": "/ghibliwithreact/static/media/wallpaperflare.com_wallpaper.1f648fb1c9d7eb5cafd1.jpg",
     "static/media/rico.jpg": "/ghibliwithreact/static/media/rico.72ae454fe9e0a3480084.jpg",
@@ -12,11 +12,11 @@
     "static/media/icons8-gmail-500.png": "/ghibliwithreact/static/media/icons8-gmail-500.b08d7f0fe82b6a64654b.png",
     "static/media/icons8-youtube-500.png": "/ghibliwithreact/static/media/icons8-youtube-500.c823c2e350a50c07b449.png",
     "index.html": "/ghibliwithreact/index.html",
-    "main.625a53a3.css.map": "/ghibliwithreact/static/css/main.625a53a3.css.map",
-    "main.cb51af99.js.map": "/ghibliwithreact/static/js/main.cb51af99.js.map"
+    "main.ad373de6.css.map": "/ghibliwithreact/static/css/main.ad373de6.css.map",
+    "main.a6104010.js.map": "/ghibliwithreact/static/js/main.a6104010.js.map"
   },
   "entrypoints": [
-    "static/css/main.625a53a3.css",
-    "static/js/main.cb51af99.js"
+    "static/css/main.ad373de6.css",
+    "static/js/main.a6104010.js"
   ]
 }
