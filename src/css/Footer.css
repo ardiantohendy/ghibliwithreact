@@ -71,6 +71,11 @@
   color: whitesmoke;
 }
 
+.mainBody .topFoot .options h4 {
+  font-size: 1.8em;
+  color: whitesmoke;
+}
+
 .mainBody span {
   display: block;
   margin: auto;
