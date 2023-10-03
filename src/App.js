@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/ghibliwithreact/" element={<GoToHome />} />
+        <Route path="/ghibliwithreact" element={<GoToHome />} />
         <Route path="/ghibliwithreact/about" element={<GoToAbout />} />
         <Route path="/ghibliwithreact/filmography" element={<GoToFilm />} />
       </Routes>
