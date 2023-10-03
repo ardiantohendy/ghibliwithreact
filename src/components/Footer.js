@@ -57,16 +57,16 @@ function Footer() {
           <div className="optionsLikeNav">
             <ul>
               <li>
-                <a href="/">home</a>
+                <a href="/ghibliwithreact/">home</a>
               </li>
               <li>
-                <a href="/filmography">filmography</a>
+                <a href="/ghibliwithreact/filmography">filmography</a>
               </li>
               <li>
                 <a href="/#">in theaters</a>
               </li>
               <li>
-                <a href="/about">about</a>
+                <a href="/ghibliwithreact/about">about</a>
               </li>
             </ul>
           </div>

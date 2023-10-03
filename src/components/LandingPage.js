@@ -19,10 +19,10 @@ function LandingPage() {
           <img src={image} alt="" data-aos="flip-right" />
           <h1 data-aos="flip-left">Studio Ghibli</h1>
           <div className="forA">
-            <a href="/filmography" data-aos="fade-right">
+            <a href="/ghibliwithreact/filmography" data-aos="fade-right">
               filmography
             </a>
-            <a href="/about" data-aos="fade-left">
+            <a href="/ghibliwithreact/about" data-aos="fade-left">
               about
             </a>
           </div>

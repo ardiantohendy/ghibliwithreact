@@ -1,6 +1,4 @@
 import "../css/Navbar.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 function Navbar() {
   return (
@@ -12,10 +10,10 @@ function Navbar() {
         <div className="listOptions">
           <ul>
             <li>
-              <a href="/">home</a>
+              <a href="/ghibliwithreact/">home</a>
             </li>
             <li>
-              <a href="/filmography">filmograpgy</a>
+              <a href="/ghibliwithreact/filmography">filmograpgy</a>
             </li>
             <li>
               <a href="#">in theaters</a>
@@ -24,7 +22,7 @@ function Navbar() {
               <a href="#">shop</a>
             </li>
             <li>
-              <a href="/about">about</a>
+              <a href="/ghibliwithreact/about">about</a>
             </li>
           </ul>
         </div>
